@@ -1,0 +1,33 @@
+{
+  "presets": [
+    "@babel/preset-env",
+    "@babel/preset-react",
+    "next/babel"
+  ],
+  "plugins": [ 
+    "@babel/plugin-transform-runtime",
+  ],
+  "env": {
+    "test": {
+      "presets": [
+        [
+          "next/babel",
+          {
+            "preset-env": {
+              "modules": "commonjs"
+            },
+            "class-properties": {
+              "loose": true
+            },
+            "styled-jsx": {
+              "optimizeForSpeed": false,
+              "plugins": ["styled-jsx/babel-test"]
+            }
+          }
+        ]
+      ]
+    }
+  }
+}
+
+
