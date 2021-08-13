@@ -22,7 +22,7 @@
     "jest": "25.5.1",
     "jest-extended": "0.11.5",
     "jest-transform-stub": "2.0.0",
-    "next": "9.3.6",
+    "next": "11.1.0",
     "react": "16.13.1",
     "react-dom": "16.13.1"
   },
